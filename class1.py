@@ -1,38 +1,38 @@
-class1-1:
+###  class1-1: #####
 for i in range(1,10):
    for j in range(1,i+1):
        print(str(i)+"*"+str(j)+"="+str(i*j),end="")
    prin("")
-class1-2:
+###  class1-2:  ###
 Number=input("Number:")
 product=1
 for i in range([1,int(Number+1)]):
    product=product*i
 print(product)
-class1-3
+###  class1-3   ###  
 a=input("Word:")
 b=input("word:")
 if a.lower() in b.lower():
    print("TRUE")
 else:
    print("FALSE")
-class1-4
+###  class1-4   ###  
 a=input("Number:")
 b=input("Number:")
 if a>b:
    print("a>b")
 else:
    print("a<b")
-class1-4
+###  class1-4   ###  
 Number=input("Number:")
 while(int(Number)<9):
    print("The Number is :"+Number)
    break
-class2-1
+###  class2-1   ###  
 a=[1,2,3,4,5,6]
 for i,j in enumerate(a):
    print("数组的索引是:"+str(i)+"数组的值是"+str(j))
-class2-2
+###  class2-2   ###  
 ixExist=False  ##boolean类型判断对错   字符都是重复的，是FALSE，否则是TRUE
 word=input("Word:")
 for i,j in enumerate(Word):
