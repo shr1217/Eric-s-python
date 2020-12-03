@@ -46,7 +46,7 @@ for i,j in enumerate(Word):
        print(i)
        ixExist=True
        break
-if i>= len(word)-1 and ixExist==False#length长度  Word的长度-1
+if i>= len(word)-1 and ixExist==False:#length长度  Word的长度-1
      print("没有不重复的字符")
  ###  class3-1  ###
 nums=input("Number:")#0-10
