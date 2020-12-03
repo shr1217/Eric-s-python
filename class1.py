@@ -35,19 +35,19 @@ for i,j in enumerate(a):
 ###  class2-2   ###  
 ixExist=False  ##boolean类型判断对错   字符都是重复的，是FALSE，否则是TRUE
 word=input("Word:")
-for i,j in enumerate(Word):
+for i,j in enumerate(word):
     k=(word[i+1:])
     l=(word[0:i])
-    if str(j).lower in str(k).lower():
-       print("a)
-    elif i>0 and str(j).lower() in str(l).lower():
-       print("a")
+    if str(j).lower() in str(k).lower():
+        print("a")
+    elif i>0 and str(j).lower() in str(k).lower():
+        print("a")
     else:
-       print(i)
-       ixExist=True
-       break
-if i>= len(word)-1 and ixExist==False:#length长度  Word的长度-1
-     print("没有不重复的字符")
+        print(i)
+        isExist=True
+        break
+    if i>=len(word)-1 and isExist == False:
+        print("没有不重复的字符")#length长度  Word的长度-1
  ###  class3-1  ###
 nums=input("Number:")#0-10
 while nums !=10:
