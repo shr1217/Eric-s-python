@@ -2,7 +2,7 @@
 for i in range(1,10):
    for j in range(1,i+1):
        print(str(i)+"*"+str(j)+"="+str(i*j),end="")
-   prin("")
+   print("")
 ###  class1-2:  ###
 Number=input("Number:")
 product=1
@@ -48,3 +48,10 @@ for i,j in enumerate(Word):
        break
 if i>= len(word)-1 and ixExist==False#length长度  Word的长度-1
      print("没有不重复的字符")
+ ###  class3-1  ###
+nums=input("Number:")#0-10
+while nums !=10:
+             print(nums)
+             nums=int(nums)+1
+             print(nums)
+             break#如果要到十停止就去掉break
